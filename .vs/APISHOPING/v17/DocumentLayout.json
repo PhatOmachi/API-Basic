@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PHAT\\Desktop\\C#\\Test-1\\APISHOPING\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{537B4FEE-9D9B-4F88-8041-3B66640068FF}|APISHOPING\\APISHOPING.csproj|c:\\users\\phat\\desktop\\c#\\test-1\\apishoping\\apishoping\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{537B4FEE-9D9B-4F88-8041-3B66640068FF}|APISHOPING\\APISHOPING.csproj|solutionrelative:apishoping\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{408FF0E8-5978-40D9-81C6-463BE9C1BAF5}|test\\test.csproj|c:\\users\\phat\\desktop\\c#\\test-1\\apishoping\\test\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{408FF0E8-5978-40D9-81C6-463BE9C1BAF5}|test\\test.csproj|solutionrelative:test\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{537B4FEE-9D9B-4F88-8041-3B66640068FF}|APISHOPING\\APISHOPING.csproj|c:\\users\\phat\\desktop\\c#\\test-1\\apishoping\\apishoping\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{537B4FEE-9D9B-4F88-8041-3B66640068FF}|APISHOPING\\APISHOPING.csproj|solutionrelative:apishoping\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ValuesController.cs",
+              "DocumentMoniker": "C:\\Users\\PHAT\\Desktop\\C#\\Test-1\\APISHOPING\\test\\Controllers\\ValuesController.cs",
+              "RelativeDocumentMoniker": "test\\Controllers\\ValuesController.cs",
+              "ToolTip": "C:\\Users\\PHAT\\Desktop\\C#\\Test-1\\APISHOPING\\test\\Controllers\\ValuesController.cs",
+              "RelativeToolTip": "test\\Controllers\\ValuesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T13:31:08.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\PHAT\\Desktop\\C#\\Test-1\\APISHOPING\\APISHOPING\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "APISHOPING\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\PHAT\\Desktop\\C#\\Test-1\\APISHOPING\\APISHOPING\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "APISHOPING\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T13:30:36.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PHAT\\Desktop\\C#\\Test-1\\APISHOPING\\APISHOPING\\Program.cs",
+              "RelativeDocumentMoniker": "APISHOPING\\Program.cs",
+              "ToolTip": "C:\\Users\\PHAT\\Desktop\\C#\\Test-1\\APISHOPING\\APISHOPING\\Program.cs",
+              "RelativeToolTip": "APISHOPING\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T13:16:09.534Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
