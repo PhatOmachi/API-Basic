@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PHAT\\Desktop\\C#\\Test-1\\APISHOPING\\APISHOPING\\APISHOPING.csproj": {}
+    "D:\\programming_folder\\c-sharp-project\\API-C--Basic\\APISHOPING\\APISHOPING.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PHAT\\Desktop\\C#\\Test-1\\APISHOPING\\APISHOPING\\APISHOPING.csproj": {
+    "D:\\programming_folder\\c-sharp-project\\API-C--Basic\\APISHOPING\\APISHOPING.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PHAT\\Desktop\\C#\\Test-1\\APISHOPING\\APISHOPING\\APISHOPING.csproj",
+        "projectUniqueName": "D:\\programming_folder\\c-sharp-project\\API-C--Basic\\APISHOPING\\APISHOPING.csproj",
         "projectName": "APISHOPING",
-        "projectPath": "C:\\Users\\PHAT\\Desktop\\C#\\Test-1\\APISHOPING\\APISHOPING\\APISHOPING.csproj",
-        "packagesPath": "C:\\Users\\PHAT\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PHAT\\Desktop\\C#\\Test-1\\APISHOPING\\APISHOPING\\obj\\",
+        "projectPath": "D:\\programming_folder\\c-sharp-project\\API-C--Basic\\APISHOPING\\APISHOPING.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\programming_folder\\c-sharp-project\\API-C--Basic\\APISHOPING\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PHAT\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -52,6 +50,10 @@
             "Microsoft.AspNetCore.Mvc.Cors": {
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.SpaServices.Extensions": {
+              "target": "Package",
+              "version": "[8.0.5, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -91,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -12,6 +12,8 @@
 
         public int quantity { get; set; }
 
+        public string image { get; set; }
+        public string category { get; set; }
 
     }
 }
