@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("APISHOPING")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b0653fc737f497cb5d8978e9c4c20673c2895a9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+02162d08620d516755f2a1e52377dba32daa2779")]
 [assembly: System.Reflection.AssemblyProductAttribute("APISHOPING")]
 [assembly: System.Reflection.AssemblyTitleAttribute("APISHOPING")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

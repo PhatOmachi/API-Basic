@@ -13,7 +13,7 @@ namespace APISHOPING.Controllers
     {
         private readonly DataContext _dataContext;
 
-        public AccountController (DataContext dataContext)
+        public AccountController(DataContext dataContext)
         {
             _dataContext = dataContext;
         }
@@ -27,22 +27,42 @@ namespace APISHOPING.Controllers
                 var acc = _dataContext.Accounts.ToList();
                 return Ok(acc);
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
                 return BadRequest("Lỗi khi lấy danh sách Account");
             }
         }
+        [EnableCors("Public")]
+        [HttpPost("login")]
+        public IActionResult Login([FromBody] Account login)
+        {
+            Dictionary<String, Object> result = new Dictionary<String, Object>();
+            try
+            {
+                var account = _dataContext.Accounts
+                    .FirstOrDefault(a => a.email == login.email && a.password == login.password);
+                if (account == null)
+                {
+                    result.Add("success", true);
+                    result.Add("message", "Invalid login credentials, try again!");
+                    result.Add("data", null);
 
-
-
-
-
-
-
-
-
-
-
+                }
+                else
+                {
+                    result.Add("success", true);
+                    result.Add("message", "Welcome back, " + account.name + "!");
+                    result.Add("data", account);
+                }
+            }
+            catch (Exception ex)
+            {
+                result.Add("success", false);
+                result.Add("message", "failed at api/Account/login");
+                result.Add("data", null);
+            }
+            return Ok(result);
+        }
         [EnableCors("Public")]
         [HttpGet("{id}")]
         public IActionResult GetAccountById(int id)
@@ -54,7 +74,7 @@ namespace APISHOPING.Controllers
             }
             catch (Exception ex)
             {
-                return BadRequest("Lỗi khi lấy thông tin Account '"+id+"'");
+                return BadRequest("Lỗi khi lấy thông tin Account '" + id + "'");
             }
 
         }
@@ -66,9 +86,9 @@ namespace APISHOPING.Controllers
         {
             try
             {
-                if (account == null) 
+                if (account == null)
                 {
-                    return BadRequest("khong duoc de acc null");   
+                    return BadRequest("khong duoc de acc null");
                 }
                 _dataContext.Accounts.Add(account);
                 _dataContext.SaveChanges();
@@ -83,14 +103,14 @@ namespace APISHOPING.Controllers
 
         [EnableCors("Public")]
         [HttpPut("{id}")]
-        public IActionResult UpdateAccountById(int id , Account account) 
+        public IActionResult UpdateAccountById(int id, Account account)
         {
-            if(account.id.Equals(""))
+            if (account.id.Equals(""))
             {
                 return BadRequest("Vui lòng nhập ID");
             }
 
-            if(account == null)
+            if (account == null)
             {
                 return BadRequest("Vui lòng nhập thông tin Account");
             }
@@ -106,11 +126,11 @@ namespace APISHOPING.Controllers
 
                 return Ok();
             }
-            catch  (Exception ex) 
+            catch (Exception ex)
             {
-                   return BadRequest(ex.Message);
+                return BadRequest(ex.Message);
             }
- 
+
         }
 
         [HttpDelete("{id}")]
@@ -121,7 +141,7 @@ namespace APISHOPING.Controllers
                 return NotFound("Không được để trống id");
             }
             var accDelete = _dataContext.Accounts.Find(id);
-            if(accDelete == null)
+            if (accDelete == null)
             {
                 return BadRequest("Không có account '" + accDelete.id + "'");
             }
@@ -132,11 +152,11 @@ namespace APISHOPING.Controllers
                 _dataContext.SaveChanges();
                 return Ok();
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
                 return BadRequest("Lỗi");
             }
- 
+
         }
     }
 }
