@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\programming_folder\\c-sharp-project\\API-C--Basic\\APISHOPING\\APISHOPING.csproj": {}
+    "D:\\programming_folder\\c-sharp-project\\API-C--Basic\\test\\test.csproj": {}
   },
   "projects": {
-    "D:\\programming_folder\\c-sharp-project\\API-C--Basic\\APISHOPING\\APISHOPING.csproj": {
+    "D:\\programming_folder\\c-sharp-project\\API-C--Basic\\test\\test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\programming_folder\\c-sharp-project\\API-C--Basic\\APISHOPING\\APISHOPING.csproj",
-        "projectName": "APISHOPING",
-        "projectPath": "D:\\programming_folder\\c-sharp-project\\API-C--Basic\\APISHOPING\\APISHOPING.csproj",
+        "projectUniqueName": "D:\\programming_folder\\c-sharp-project\\API-C--Basic\\test\\test.csproj",
+        "projectName": "test",
+        "projectPath": "D:\\programming_folder\\c-sharp-project\\API-C--Basic\\test\\test.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\programming_folder\\c-sharp-project\\API-C--Basic\\APISHOPING\\obj\\",
+        "outputPath": "D:\\programming_folder\\c-sharp-project\\API-C--Basic\\test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,32 +43,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNet.Cors": {
-              "target": "Package",
-              "version": "[5.3.0, )"
-            },
-            "Microsoft.AspNetCore.Mvc.Cors": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
-            "Microsoft.AspNetCore.SpaServices.Extensions": {
-              "target": "Package",
-              "version": "[8.0.5, )"
-            },
-            "Microsoft.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.5, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[8.0.5, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[8.0.5, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"

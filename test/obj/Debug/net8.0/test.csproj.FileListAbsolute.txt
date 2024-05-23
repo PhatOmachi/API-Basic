@@ -1,0 +1,8 @@
+D:\programming_folder\c-sharp-project\API-C--Basic\test\obj\Debug\net8.0\test.csproj.AssemblyReference.cache
+D:\programming_folder\c-sharp-project\API-C--Basic\test\obj\Debug\net8.0\test.GeneratedMSBuildEditorConfig.editorconfig
+D:\programming_folder\c-sharp-project\API-C--Basic\test\obj\Debug\net8.0\test.AssemblyInfoInputs.cache
+D:\programming_folder\c-sharp-project\API-C--Basic\test\obj\Debug\net8.0\test.AssemblyInfo.cs
+D:\programming_folder\c-sharp-project\API-C--Basic\test\obj\Debug\net8.0\test.csproj.CoreCompileInputs.cache
+D:\programming_folder\c-sharp-project\API-C--Basic\test\obj\Debug\net8.0\test.MvcApplicationPartsAssemblyInfo.cs
+D:\programming_folder\c-sharp-project\API-C--Basic\test\obj\Debug\net8.0\test.MvcApplicationPartsAssemblyInfo.cache
+D:\programming_folder\c-sharp-project\API-C--Basic\test\obj\Debug\net8.0\test.sourcelink.json
