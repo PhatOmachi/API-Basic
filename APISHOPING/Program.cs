@@ -17,7 +17,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("Public",
         policy =>
         {
-            policy.WithOrigins("http://localhost:3000")
+            policy.WithOrigins("http://localhost:5173")
                                 .AllowAnyHeader()
                                 .AllowAnyMethod();
         });
@@ -32,7 +32,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseCors();
+app.UseCors("Public");
 
 app.UseAuthorization();
 
