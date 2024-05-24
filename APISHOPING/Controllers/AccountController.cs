@@ -64,21 +64,35 @@ namespace APISHOPING.Controllers
         [HttpPost]
         public IActionResult SaveAccount(Account account)
         {
+            Dictionary<string, object> result = new Dictionary<string, object>();
             try
             {
+                var acc = _dataContext.Accounts.FirstOrDefault(a => a.email == account.email);
                 if (account == null) 
                 {
-                    return BadRequest("khong duoc de acc null");   
+                    result.Add("status",true);
+                    result.Add("message","Account not null");
                 }
-                _dataContext.Accounts.Add(account);
-                _dataContext.SaveChanges();
-                return Ok();
+                
+                else if(acc != null){
+                    result.Add("status",true);
+                    result.Add("message","Email is exist");
+                }
+                else{
+                     _dataContext.Accounts.Add(account);
+                    result.Add("status",true);
+                    result.Add("data",_dataContext.SaveChanges());
+                    result.Add("message","Save account success");
+                }
+                
+              
             }
             catch (Exception ex)
             {
-                return BadRequest("Lỗi lưu Account");
+                result.Add("status",false);
+                result.Add("message","Call api failed");
             }
-
+            return Ok(result);
         }
 
         [EnableCors("Public")]
